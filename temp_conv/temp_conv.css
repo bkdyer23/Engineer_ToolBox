@@ -1,0 +1,80 @@
+
+
+  body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #132d46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #132d46, #017051,#696e79);  
+  }
+
+  #temp-calc-container h2 {
+    margin-top: 0;
+    
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  #temp-calc-container {
+    background-color: white;
+  
+    padding: 20px 40px;
+    box-shadow: 1px 3px 3px 1px #132d46;
+    border-radius: 10px;
+    text-align: center;
+    height: 220px;
+  }
+
+  #inputs-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+  #tempc-container, #tempf-container, #tempk-container {
+    
+    text-align: center;
+    flex: 1fr;
+  }
+
+  #tempc-label, #tempf-label, #tempk-label {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #696e79;
+    color: #017051;
+    color: #132d46;
+  }
+
+  #tempc-input, #tempf-input, #tempk-input {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #132d46;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px #132d46;
+    max-width: 100px;
+    color: #017051;
+    color: #696e79;
+    color: #3f5688;
+    font-size: 1.5rem;
+
+  }
+
