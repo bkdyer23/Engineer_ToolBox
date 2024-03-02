@@ -56,6 +56,10 @@ input[type=number] {
     /* flex: 1fr; */
   }
 
+  #tempk-container{
+    margin-bottom: 10px;
+  }
+
   #tempc-label, #tempf-label, #tempk-label {
     text-align: center;
     font-size: 1.5rem;
@@ -82,7 +86,6 @@ input[type=number] {
   @media only screen and (max-width: 650px) {
     #tempc-container, #tempf-container, #tempk-container {
       width: 100%;
-      /* padding: 0; */
     }
 
     #temp-calc-container {
