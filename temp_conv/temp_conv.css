@@ -22,18 +22,18 @@
   }
   #temp-calc-container {
     background-color: white;
-  
     padding: 20px 40px;
     box-shadow: 1px 3px 3px 1px #132d46;
     border-radius: 10px;
     text-align: center;
     height: 220px;
+    /* width: 400px; */
   }
 
   #inputs-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
   }
 
   /* Chrome, Safari, Edge, Opera */
@@ -49,9 +49,8 @@ input[type=number] {
 }
 
   #tempc-container, #tempf-container, #tempk-container {
-    
     text-align: center;
-    flex: 1fr;
+    /* flex: 1fr; */
   }
 
   #tempc-label, #tempf-label, #tempk-label {
@@ -70,15 +69,14 @@ input[type=number] {
     border: 1px solid #132d46;
     border-radius: 10px;
     box-shadow: 1px 2px 2px 1px #132d46;
-    max-width: 100px;
+    max-width: 120px;
     color: #017051;
     color: #696e79;
     color: #3f5688;
     font-size: 1.5rem;
-
   }
 
-  @media screen and (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
     body {
       background-color: lightgreen;
     }
