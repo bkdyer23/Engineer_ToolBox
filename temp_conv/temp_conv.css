@@ -26,7 +26,7 @@
     box-shadow: 1px 3px 3px 1px #132d46;
     border-radius: 10px;
     text-align: center;
-    height: 220px;
+    min-height: 220px;
     /* width: 400px; */
   }
 
@@ -34,6 +34,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
   }
 
   /* Chrome, Safari, Edge, Opera */
