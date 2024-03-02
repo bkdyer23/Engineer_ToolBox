@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #132d46;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #132d46, #017051,#696e79);  
+    /* background-color:aliceblue; */
+}
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+h1 {
+    color: black;
+}
+
+
+input {
+    width: 100px;
+}
+
+#circuit {
+    width: 300px;
+}
+#illustration-container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 20px;
+    width: 
+}
+
+#inputs-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 330px;
+    justify-content: center;
+}
+
+label {
+    font-size: 1rem;
+    color: #132d46;
+    font-weight: bold;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgba(170,170,170, .5);
+    padding: 6px;
+    font-size: 1rem;
+    color: #132d46;
+}
+#voltage, #current, #resistance, #power {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px;;
+}
+
+#calc-btn{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    background-color: #132d46;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
