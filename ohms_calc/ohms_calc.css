@@ -35,14 +35,16 @@ input {
 }
 
 #circuit {
-    width: 300px;
+    width: 250px;
+
 }
 #illustration-container {
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 2px 2px 2px 2px;
     border-radius: 20px;
-    width: 
+    text-align: center;
+    /* width: 300px; */
 }
 
 #inputs-container {
