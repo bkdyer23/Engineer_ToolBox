@@ -1,0 +1,140 @@
+
+
+  body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #132d46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #132d46, #017051,#696e79);  
+  }
+
+.arrow-button {
+  background: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 2px 1px #132d46;
+  border: solid 1px #132d46;
+  margin: auto auto 4px auto;
+  transition: 0.1s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arrow-button:hover {
+  box-shadow: 1px 3px 3px 1px #132d46;
+}
+
+
+#arrow-right {
+  background: none;
+  height: 20px;
+  width: 20px;
+  border-top: 8px solid #132d46;
+  border-right: 8px solid #132d46;
+  border-bottom: 4px solid white;
+  border-left: 4px solid white;
+  transform: rotate(45deg);
+  margin: auto 12px auto auto;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+  #num-base-conv-container {
+    background-color: white;
+    padding: 20px 40px;
+    box-shadow: 1px 3px 3px 1px #132d46;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* width: 400px; */
+  }
+
+  #num-base-conv-container h2 {
+    margin-top: 0;
+    
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+  #inputs-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+  #input-container, #output-container {
+    text-align: center;
+    /* flex: 1fr; */
+  }
+
+  #output-container{
+    margin-bottom: 10px;
+  }
+
+  #input-label, #output-label {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #696e79;
+    color: #017051;
+    color: #132d46;
+  }
+
+  output {
+    display: block;
+    height: 30px;
+  }
+
+  #input-input, #output-output {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #132d46;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px #132d46;
+    max-width: 120px;
+    color: #017051;
+    color: #696e79;
+    color: #3f5688;
+    font-size: 1.5rem;
+  }
+  
+
+
+  @media only screen and (max-width: 650px) {
+    #input-container, #output-container {
+      width: 100%;
+    }
+
+    #num-base-conv-container {
+      max-width: 200px;
+    }
+
+  }

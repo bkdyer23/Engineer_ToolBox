@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="us-en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="num_base_conv.css">
+    
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="num-base-conv-container">
+        <h2>Number Base Converter</h2>
+        <div id="inputs-container">
+            <div id="input-container">
+                <label for="input-base" id="input-label">From: </label>
+                <select name="input-base" id="input-base">
+                    <option value="base-2">Base 2</option>
+                    <option value="base-8">Base 8</option>
+                    <option value="base-10">Base 10</option>
+                    <option value="base-16">Base 16</option>
+                    <option value="base-36">Base 36</option>
+                </select><br>
+                <input type="number" id="input-input">
+            </div>
+            <button class="arrow-button">
+                <span id="arrow-right"></span>
+            </button>
+            <div id="output-container">
+                <label for="output-base" id="output-label">To: </label>
+                <select name="output-base" id="output-base">
+                    <option value="base-2">Base 2</option>
+                    <option value="base-8">Base 8</option>
+                    <option value="base-10" selected>Base 10</option>
+                    <option value="base-16">Base 16</option>
+                    <option value="base-36">Base 36</option>
+                </select><br>
+                <output type="text" id="output-output"></output>
+            </div>
+        </div>
+    </div>
+    <script src="num_base_conv.js"></script>
+</body>
+</html>
